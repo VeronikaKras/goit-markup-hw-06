@@ -947,19 +947,32 @@ fill: #FFFFFF;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        
-               
+        .email-footer-input {
+            width: 264px;
+            height: 40px;
+            border: 1px solid #FFFFFF;
+            border-radius: 4px;
+            font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 2;
+                letter-spacing: 0.04em;
+                color: #FFFFFF;
+                padding-left: 16px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                resize: none;
+                background-color: transparent;
+                outline: none;
         }
-        /* .footer-email-input 
-            width: 100%;
-                height: 40px;
-                border: 1px solid #FFFFFF;
-                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-                    border-radius: 4px;
-                padding-left: 38px;
-                background-color: transparent; */
-               
 
+                .email-footer-input::placeholder {
+                    color: #ffffff;
+                }
+        
+        
+       
         /* .label {
             display: flex;
             align-items: center;
