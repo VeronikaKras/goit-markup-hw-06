@@ -637,9 +637,13 @@ font-family: 'Roboto';
     line-height: 1.5;
     width: 165px;
     border-radius: 4px;
+    cursor: pointer;
     }
 
- .subscribe-btn-icon {}
+.subscribe-button:hover,
+.subscribe-button:focus {
+    background-color: var(--ocean-color);
+}
 
 .plane-icon {
    
@@ -649,6 +653,12 @@ font-family: 'Roboto';
     margin-right: 16px;
 }
 
+
+.email-and-plane {
+    display: flex;
+    gap: 24px;
+
+}
 
 
     .menu-first-link::after {
