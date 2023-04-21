@@ -639,15 +639,17 @@ font-family: 'Roboto';
     border-radius: 4px;
     }
 
-    .subscribe-icon::after {
-        width: 24px;
-        height: 24px;
-        background-image: url(../images/imageshw06/subscribe.svg);
-        background-size: contain;
-        
-    }
+ .subscribe-btn-icon {}
 
+.plane-icon {
    
+  fill: #FFFFFF;
+}
+.subscribe-icon {
+    margin-right: 16px;
+}
+
+
 
     .menu-first-link::after {
         display: block;
@@ -780,6 +782,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
             
     }
 
+    
         .footer-email-input-text {
             font-family: 'Roboto';
                 font-style: normal;
