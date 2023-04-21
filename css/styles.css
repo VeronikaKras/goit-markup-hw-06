@@ -622,6 +622,33 @@ align-items: baseline; }
     }
     
     
+    .subscribe-button {
+text-decoration: none;
+display: inline-flex;
+padding-left: 24px;
+padding-top: 8px;
+padding-bottom: 8px;
+background-color: var(--iris-color);
+color: #FFFFFF;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 165px;
+    border-radius: 4px;
+    }
+
+    .subscribe-icon::after {
+        width: 24px;
+        height: 24px;
+        background-image: url(../images/imageshw06/subscribe.svg);
+        background-size: contain;
+        
+    }
+
+   
+
     .menu-first-link::after {
         display: block;
         content: "";
@@ -802,7 +829,9 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     display: block;
 }
 
-.modal-form-check-desc {
+.label-check {
+    display: flex;
+    align-items: center;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -810,6 +839,9 @@ border: 1px solid rgba(46, 47, 66, 0.4);
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: rgba(142, 143, 153, 1);
+        margin-top: 16px;
+        margin-bottom: 24px;
+        
 }
 
 .modal-privacy-policy {
@@ -824,19 +856,40 @@ font-family: 'Roboto';
 
 }
 
-.modal-form-check-desc::before {
-    content: "";
-    display: block;
+.icon-check {
+    display: inline-block;
     width: 16px;
     height: 16px;
 border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 2px;
         cursor: pointer;
+        margin-right: 8px;
+       
+        
 }
 
-.modal-form-check:checked +.form-icon-checkbox {
-    
+ 
+.checkbox {
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
+.checkbox:checked + .icon-check {
+background-color: rgba(64, 75, 191, 1);
+background-image: url(../images/imageshw06/click.svg);
+background-size: contain;
+background-origin: border-box;
+border-color: rgba(64, 75, 191, 1);
+}
+   
 
 
 /* .icon-checkbox {
