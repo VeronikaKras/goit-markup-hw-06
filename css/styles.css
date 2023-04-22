@@ -1038,8 +1038,10 @@ fill: #FFFFFF;
                 }
         
         
-       
-        /* .label {
+       .label {
+        display: flex;
+align-items: flex-end;       }
+        /* .labeklkl {
             display: flex;
             align-items: center;
         }
