@@ -844,6 +844,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 
 .label-check {
     display: flex;
+    text-align: center;
     align-items: center;
     font-family: 'Roboto';
         font-style: normal;
