@@ -607,20 +607,25 @@ font-family: 'Roboto';
     margin-bottom: 16px;
 }
 
-.footer-both {
-    gap: 120px;
-    display: flex;
+
+
+.footer-content {
+    margin-right: 120px;
+}
+.footer-media-block {
+    margin-right: 80px;
 }
 
+.footer-subscribe {
+    margin-left: 0;
+}
+
+
 .footer-gap {
-    gap: 120px;
     display: flex;
 align-items: baseline; }
 
-    .footer-media-list {
-        margin-left:  120px;
-    }
-    
+   
     
     .subscribe-button {
 text-decoration: none;
@@ -865,13 +870,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-privacy-policy {
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.04em;
-    text-decoration-line: underline;
+    
     color: rgba(77, 90, 229, 1);
     margin-left: 4px ;
 
