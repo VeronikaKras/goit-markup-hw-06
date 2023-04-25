@@ -339,18 +339,23 @@
           <p class="footer-text-social">Subscribe</p>
 
           <div class="email-and-plane">
-            <label class="">
-              <input
-                class="email-footer-input"
-                type="email"
-                name="user_email"
-                placeholder="Email"
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-              />
-            </label>
+            <form>
+              <label class="">
+                <input
+                  class="email-footer-input"
+                  type="email"
+                  name="user_email"
+                  placeholder="Email"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                />
+              </label>
+            </form>
+
             <div class="subscribe-btn-icon">
               <a class="subscribe-button">
-                <span class="subscribe-icon">Subscribe</span>
+                <span class="subscribe-icon"
+                  ><button type="submit">Subscribe</button></span
+                >
                 <svg class="plane-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-subscribe"></use>
                 </svg>
