@@ -629,11 +629,12 @@ align-items: baseline; }
     
     .subscribe-button {
 text-decoration: none;
-display: inline-flex;
+display: flex;
 padding-left: 24px;
 padding-top: 8px;
 padding-bottom: 8px;
 background-color: var(--iris-color);
+border: var(--iris-color);
 color: #FFFFFF;
 font-family: 'Roboto';
     font-style: normal;
@@ -643,7 +644,7 @@ font-family: 'Roboto';
     width: 165px;
     border-radius: 4px;
     cursor: pointer;
-    transition-property: background-color;
+    transition-property: background-color border;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -651,14 +652,18 @@ font-family: 'Roboto';
 .subscribe-button:hover,
 .subscribe-button:focus {
     background-color: var(--ocean-color);
+    border-color: var(--ocean-color)
+}
+
+.subscribe-btn-icon {
+    display: flex;
+    margin-left: 16px;
 }
 
 .plane-icon {
    
   fill: #FFFFFF;
-}
-.subscribe-icon {
-    margin-right: 16px;
+  margin-left: 16px;
 }
 
 
