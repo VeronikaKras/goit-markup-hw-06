@@ -629,7 +629,7 @@ align-items: baseline; }
     
     .subscribe-button {
 text-decoration: none;
-display: flex;
+display: inline-flex;
 padding-left: 24px;
 padding-top: 8px;
 padding-bottom: 8px;
@@ -656,8 +656,8 @@ font-family: 'Roboto';
 }
 
 .subscribe-btn-icon {
-    display: flex;
-    margin-left: 16px;
+    display: inline-flex;
+    
 }
 
 .plane-icon {
@@ -1044,11 +1044,13 @@ fill: #FFFFFF;
                 letter-spacing: 0.04em;
                 color: #FFFFFF;
                 padding-left: 16px;
+                padding-right: 16px;
                 padding-top: 8px;
                 padding-bottom: 8px;
                 resize: none;
                 background-color: transparent;
                 outline: none;
+                margin-right: 16px;
         }
 
                 .email-footer-input::placeholder {
