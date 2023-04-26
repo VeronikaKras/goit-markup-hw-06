@@ -656,8 +656,12 @@ font-family: 'Roboto';
 }
 
 .subscribe-btn-icon {
-    display: inline-flex;
+    display: flex;
     
+}
+
+.form-footer {
+    display: flex;
 }
 
 .plane-icon {
